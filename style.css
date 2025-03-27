@@ -12,7 +12,7 @@
     color: #333;
     line-height: 1.6;
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
   }
   
@@ -30,6 +30,35 @@
   header p {
     font-size: 1.2rem;
     color: #555;
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  #menu-toggle {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  #nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  #nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
   }
   
   /* Sections */
@@ -57,5 +86,39 @@
   
   a:hover {
     text-decoration: underline;
+  }
+  
+  /* Portfolio */
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #menu-toggle {
+      display: block;
+    }
+  
+    #nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    #nav-links.show {
+      display: flex;
+    }
   }
   
