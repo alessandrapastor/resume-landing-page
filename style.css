@@ -124,5 +124,35 @@
     #nav-links.show {
       display: flex;
     }
+      /* Fun Fact Section Styling */
+#fun-fact {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#factBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#factBtn:hover {
+  background-color: #005fa3;
+}
+
+#factDisplay {
+  margin-top: 15px;
+  font-style: italic;
+  font-weight: bold;
+  color: #2c3e50;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
   }
   
