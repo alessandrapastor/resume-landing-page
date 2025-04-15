@@ -22,7 +22,7 @@ This project started as a clean, simple resume site hosted on Cloudflare Pages. 
 
 ## 🔗 Live Demo Links
 
-- **Resume Site (Pages):** [https://resume-landing-page.pages.dev](https://resume-landing-page.pages.dev)
+- **Resume Site (Pages):** [https://resume-landing-page.pages.dev](https://resume-landing-page-5hc.pages.dev/)
 - **Worker Endpoint:** [https://resume-worker.alessandra-pastor.workers.dev/fact](https://resume-worker.alessandra-pastor.workers.dev/fact)
 
 ## 🚀 How to Run Locally
